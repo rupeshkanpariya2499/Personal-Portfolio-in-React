@@ -36,7 +36,7 @@ export const Hero = () => {
     </div>
     {/* Content */}
     <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
-      <div className="grid lg: grid-cols-2 gap-12 items-center">
+      <div className="flex flex-col lg:flex-row gap-12 items-center">
         {/* Left Column - Text Content */}
         <div className="space-y-8">
           <div className="animate-fade-in">
